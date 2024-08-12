@@ -9,3 +9,4 @@ factor x1-x8, pcf
 estat kmo
 rotate
 predict F1 F2
+screeplot
