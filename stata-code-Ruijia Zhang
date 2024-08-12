@@ -1,0 +1,11 @@
+import excel "path\to\data\PCA.xlsx", sheet("data") firstrow clear
+gen id = substr (code, 1, 6)            
+gen year = substr (date ,1, 4)      
+destring year, replace    
+destring id, replace    
+xtset id year
+factortest x1-x8
+factor x1-x8, pcf
+estat kmo
+rotate
+predict F1 F2
