@@ -1,4 +1,4 @@
-import excel "path\to\data\PCA.xlsx", sheet("data") firstrow clear
+import excel "path\to\data\PCA.xlsx", sheet("PCA-data") firstrow clear
 gen id = substr (code, 1, 6)            
 gen year = substr (date ,1, 4)      
 destring year, replace    
