@@ -1,1 +1,1 @@
-Principal component analysis is mainly performed by stata software, DEA results are obtained by Dearun software and other processes including, data processing, pivot, heterogeneity analysis are performed in Excel.
+Principal component analysis is mainly performed by stata software, NSBM-DEA results are obtained by Dearun software and other processes including, data processing, pivot, heterogeneity analysis are performed in Excel.
